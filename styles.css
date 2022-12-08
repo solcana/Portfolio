@@ -3,20 +3,19 @@ body {
   flex-direction: column;
   background: linear-gradient(
     109.6deg,
-    rgb(36, 45, 57) 11.2%,
-    rgb(16, 37, 60) 51.2%,
-    rgb(0, 0, 0) 98.6%
+    rgb(0, 37, 84) 11.2%,
+    rgba(0, 37, 84, 0.32) 100.2%
   );
+
   color: white;
   font-family: "Silkscreen", cursive;
+  font-size: 18px;
 }
 h1 {
-  font-size: 110px;
-  line-height: 3px;
+  font-size: 5em;
+  line-height: 30px;
+  padding: 25px 0;
   font-family: "Black Ops One", cursive;
-}
-header {
-  height: 100vh;
 }
 ul {
   list-style: none;
@@ -26,9 +25,34 @@ ul {
 }
 .menu {
   margin: 20px 50px;
+  transition: transform 0.5s;
+}
+.menu:hover {
+  transform: scale(1.5);
 }
 .intro {
   position: absolute;
   top: 200px;
   left: 80px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 20px 50px;
+}
+.icons {
+  color: white;
+}
+.icons:hover {
+  color: #002554;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 0.667em;
+  }
+  h1 {
+    font-size: 2.778em;
+  }
 }
