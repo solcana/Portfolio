@@ -145,6 +145,15 @@ ul {
   font-size: 13px;
 }
 
+.timeline-time small {
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.email {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 20px;
+}
+
 #about {
   text-align: center;
   margin-top: 900px;
