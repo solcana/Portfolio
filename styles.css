@@ -123,7 +123,7 @@ h3 {
 
 #contact {
   margin-top: 600px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -154,10 +154,16 @@ h3 {
 
 .tech-list {
   list-style: none;
+  margin-bottom: 30px;
 }
 
 .tech-list span {
   color: blue;
+}
+
+.tech-item {
+  padding: 0 150px 0 150px;
+  font-size: 20px;
 }
 
 .project-list {
