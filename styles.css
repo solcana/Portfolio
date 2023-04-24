@@ -91,14 +91,15 @@ h3 {
 
 #about {
   text-align: center;
-  margin-top: 700px;
+  margin-top: 750px;
 }
 
 #about p,
 #projects .projects-intro {
-  width: 60%;
+  width: 56%;
   margin: 0 auto;
   padding: 25px 0 25px 0;
+  font-size: 17px;
 }
 
 .projects-intro {
@@ -113,7 +114,7 @@ h3 {
 }
 
 #techAndTools h2 {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 #projects {
@@ -359,17 +360,37 @@ h3 {
 .techAndToolsIcons .tech-type {
   display: flex;
   flex-direction: column;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .techAndToolsIcons i {
   font-size: 60px;
-  margin: 10px;
+  margin: 15px;
 }
 
-/* .techAndToolsIcons i:hover {
-  font-size: 67px;
-} */
+.tech-icon {
+  position: relative;
+}
+
+.tech-icon i:hover:after {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  content: attr(title);
+  position: absolute;
+  bottom: -110%;
+  left: 45%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.tech-icon:after {
+  display: none;
+}
 
 @media (max-width: 992px) {
   .timeline {
