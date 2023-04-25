@@ -91,12 +91,12 @@ h3 {
 
 #about {
   text-align: center;
-  margin-top: 750px;
+  margin-top: 800px;
 }
 
 #about p,
 #projects .projects-intro {
-  width: 56%;
+  width: 57%;
   margin: 0 auto;
   padding: 25px 0 25px 0;
   font-size: 17px;
