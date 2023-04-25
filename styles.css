@@ -72,7 +72,14 @@ h3 {
 
 .timeline-paragraphs {
   font-family: "Chakra Petch", sans-serif;
-  font-size: 17px;
+  font-size: 16px;
+  margin: 9px 20px;
+  text-align: center;
+}
+
+.timeline h4 {
+  font-size: 23px;
+  text-align: center;
 }
 
 .projects-description {
@@ -133,10 +140,6 @@ h3 {
   text-align: center;
 }
 
-#experience .experience {
-  margin-bottom: 25px;
-}
-
 #back-to-top-btn {
   display: none; /* hide the button by default */
   position: fixed;
@@ -178,11 +181,11 @@ h3 {
 }
 
 .project-list p {
-  font-size: 19px;
+  font-size: 20px;
 }
 
 .eachProjectDiv {
-  margin: 0 0 15px 80px;
+  margin: 0 0 15px 60px;
   font-family: "Chakra Petch", sans-serif;
 }
 
@@ -227,11 +230,11 @@ h3 {
 }
 .timeline-row .timeline-content {
   position: relative;
-  padding: 10px 15px;
-  background: #1a233a;
+  padding: 7px 7px;
+  background: #76a2e4;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
-  border-radius: 4px;
+  border-radius: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -239,68 +242,26 @@ h3 {
   text-align: center;
 }
 
-.timeline-row .timeline-content:after {
-  content: "";
-  position: absolute;
-  top: 20px;
-  height: 16px;
-  width: 16px;
-  background: #1a233a;
-}
-.timeline-row .timeline-content:before {
-  content: "";
-  position: absolute;
-  top: 20px;
-  right: -49px;
-  width: 20px;
-  height: 20px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  border-radius: 100px;
-  z-index: 10;
-  background: #272e48;
-  border: 2px dashed #4b546f;
+.timeline-time p {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-.timeline-row .timeline-content h4 {
-  margin: 0 0 20px 0;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  line-height: 150%;
+.timeline-content h4 {
+  margin-bottom: 20px;
 }
-.timeline-row .timeline-content p {
-  margin-bottom: 30px;
-  line-height: 150%;
-}
+/* 
 .timeline-row .timeline-content i {
-  font-size: 1.2rem;
-  line-height: 100%;
-  padding: 15px;
+  padding: 10px;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   border-radius: 100px;
-  background: #272e48;
+  background: #0c59ca;
   margin-bottom: 10px;
   display: inline-block;
-}
-.timeline-row .timeline-content .thumbs {
-  margin-bottom: 20px;
-  display: flex;
-}
-.timeline-row .timeline-content .thumbs img {
-  margin: 5px;
-  max-width: 60px;
-}
+} */
 
-.timeline-row .timeline-content .thumbs img {
-  margin: 5px;
-  max-width: 60px;
-}
-.timeline-row .timeline-content .badge {
-  color: #ffffff;
-  background: linear-gradient(120deg, #00b5fd 0%, #0047b1 100%);
-}
 .timeline-row:nth-child(even) .timeline-content {
   margin-left: 40px;
   text-align: left;
@@ -330,12 +291,6 @@ h3 {
 .timeline-row:nth-child(odd) .timeline-content {
   margin-right: 40px;
 }
-.timeline-row:nth-child(odd) .timeline-content:after {
-  right: -8px;
-  border-left: 0;
-  border-bottom: 0;
-  transform: rotate(45deg);
-}
 
 #scrollUpBtn {
   display: none;
@@ -345,7 +300,7 @@ h3 {
   z-index: 999;
   cursor: pointer;
   opacity: 0.7;
-  background-color: #000;
+  background-color: #333;
   color: #fff;
   border: none;
   outline: none;
