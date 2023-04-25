@@ -71,7 +71,7 @@ h3 {
 }
 
 .timeline-paragraphs {
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 16px;
   margin: 9px 20px;
   text-align: center;
@@ -82,17 +82,8 @@ h3 {
   text-align: center;
 }
 
-.projects-description {
-  font-family: "Chakra Petch", sans-serif;
-  font-size: 13px;
-}
-
-.timeline-time small {
-  font-family: "Chakra Petch", sans-serif;
-}
-
 .email {
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 20px;
 }
 
@@ -103,10 +94,11 @@ h3 {
 
 #about p,
 #projects .projects-intro {
-  width: 57%;
+  width: 50%;
   margin: 0 auto;
   padding: 25px 0 25px 0;
-  font-size: 17px;
+  font-size: 18px;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 .projects-intro {
@@ -186,7 +178,7 @@ h3 {
 
 .eachProjectDiv {
   margin: 0 0 15px 60px;
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 .timeline {
@@ -243,9 +235,8 @@ h3 {
 }
 
 .timeline-time p {
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 18px;
-  font-weight: bold;
 }
 
 .timeline-content h4 {
@@ -328,7 +319,7 @@ h3 {
 }
 
 .tech-icon i:hover:after {
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 12px;
   font-weight: bold;
   content: attr(title);
