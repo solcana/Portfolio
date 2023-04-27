@@ -101,12 +101,6 @@ h3 {
   font-family: "Space Grotesk", sans-serif;
 }
 
-.projects-intro {
-  width: 50%;
-  margin: 0 auto;
-  padding: 25px 0 25px 0;
-}
-
 #techAndTools {
   margin-top: 400px;
   text-align: center;
@@ -242,16 +236,6 @@ h3 {
 .timeline-content h4 {
   margin-bottom: 20px;
 }
-/* 
-.timeline-row .timeline-content i {
-  padding: 10px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  border-radius: 100px;
-  background: #0c59ca;
-  margin-bottom: 10px;
-  display: inline-block;
-} */
 
 .timeline-row:nth-child(even) .timeline-content {
   margin-left: 40px;
@@ -310,8 +294,12 @@ h3 {
 }
 
 .techAndToolsIcons i {
-  font-size: 60px;
+  font-size: 53px;
   margin: 15px;
+}
+
+.techAndToolsIcons .tech-icon.json i {
+  font-size: 47px;
 }
 
 .tech-icon {
