@@ -65,6 +65,7 @@ h3 {
 
 .icons {
   color: white;
+  font-size: 23.5px;
 }
 .icons:hover {
   color: #002554;
@@ -97,7 +98,7 @@ h3 {
   width: 56%;
   margin: 0 auto;
   padding: 25px 0 25px 0;
-  font-size: 19px;
+  font-size: 22.5px;
   font-family: "Space Grotesk", sans-serif;
 }
 
